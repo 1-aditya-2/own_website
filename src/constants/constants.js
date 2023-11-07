@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'FlatMate',
-    description: "This robust and user-centric website functions as an extensive platform designed to facilitate room rentals and stands out with a distinctive feature that empowers users to discover compatible roommates for the purpose of sharing accommodation expenses. It also caters to the needs of individuals seeking affordable and convenient living arrangements.",
+    description: "This robust and user-centric website functions as an extensive platform designed to facilitate room rentals and stands out with a distinctive feature that empowers users to discover compatible roommates for the purpose of sharing accommodation expenses. It helps to get an affordable and convenient living arrangements.",
       image: '/images/i3.png',
       tags: ['PHP', 'JavaScript','CSS', "HTML"],
     source: 'https://github.com/1-aditya-2/FlatMate',
