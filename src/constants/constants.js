@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'CustomYum',
-    description: "This food recipe website is an online platform that provides a collection of diverse culinary recipes, offering users the opportunity to discover, learn, and prepare a wide range of dishes, catering to various tastes and dietary preferences accordingly. ",
+    description: "This food recipe website is an online platform that provides a collection of diverse culinary recipes, offering users the opportunity to discover, learn, and prepare a wide range of dishes, catering to various tastes and dietary preferences. Even the recipes are systematically categorized.",
     image: '/images/i4.png',
     tags: ['React', 'Node', 'HTML', 'SCSS', 'JavaScript'],
     source: 'https://github.com/1-aditya-2/food-recipe',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'FlatMate',
-    description: "This robust and user-centric website functions as an extensive platform designed to facilitate room rentals and stands out with a distinctive feature that empowers users to discover compatible roommates for the purpose of sharing accommodation expenses. It helps to get an affordable and convenient living arrangements.",
+    description: "This robust and user-centric website functions as an extensive platform designed to facilitate room rentals and stands out with a distinctive feature that empowers users to discover compatible roommates for the purpose of sharing accommodation expenses to get affordable place.",
       image: '/images/i3.png',
       tags: ['PHP', 'JavaScript','CSS', "HTML"],
     source: 'https://github.com/1-aditya-2/FlatMate',
