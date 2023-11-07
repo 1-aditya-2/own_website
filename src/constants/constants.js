@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'CustomYum',
-    description: "This food recipe website is an online platform that provides a collection of diverse culinary recipes, offering users the opportunity to discover, learn, and prepare a wide range of dishes, catering to various tastes and dietary preferences. Even the recipes are systematically categorized.",
+    description: "This food recipe website is an online platform that provides a collection of diverse culinary recipes, offering users the opportunity to discover, learn, and prepare a wide range of dishes, catering to various tastes and dietary preferences accordingly. ",
     image: '/images/i4.png',
     tags: ['React', 'Node', 'HTML', 'SCSS', 'JavaScript'],
     source: 'https://github.com/1-aditya-2/food-recipe',
