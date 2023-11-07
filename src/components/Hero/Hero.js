@@ -14,7 +14,7 @@ const Hero = (props) => (
         <SectionText>
         A budding web developer with a passion for creative solutions.  Interested in learning new tech stacks and programming languages.
         </SectionText>
-        <a href="https://drive.google.com/file/d/1Lbn6Zv3TCllC0AEeCryzOUavTjfYEBGn/view?usp=share_link"><Button onClick={props.handleClick}>Learn More</Button></a>
+        <a href="https://drive.google.com/file/d/1Lbn6Zv3TCllC0AEeCryzOUavTjfYEBGn/view?usp=sharing"><Button onClick={props.handleClick}>Resume</Button></a>
       </LeftSection>
     </Section>
   </>
