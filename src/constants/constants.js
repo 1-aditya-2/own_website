@@ -1,20 +1,29 @@
 export const projects = [
   {
     title: 'HostelBuddy',
-    description: "Using Node.js, Express & MySQL, created this website.It is effective in a hostel premise where students can share various items such as leftover medicines, food, assessories etc. You can create your account and them donate or recieve an item of your choice.",
-      image: '/images/i1.jpg',
-      tags: ['Node', 'MySQL', 'Express', 'CSS', 'HTML'],
-    source: 'https://github.com/1-aditya-2/HostelBuddy',
-    visit: 'https://google.com',
+    description: "Using React.js, Node.js, & MongoDB, created this website. It is effective in a hostel premise where students can share various items such as leftover medicines, food, assessories etc. You can create your account and them donate or recieve an item of your choice.",
+      image: '/images/10.png',
+      tags: ['React.js', 'Node.js', 'MongoDB', 'TailwindCSS'],
+    source: 'https://github.com/1-aditya-2/hostelbuddy12',
+    visit: 'https://hostelbuddy-nine.vercel.app/',
     id: 0,
   },
-  {
+    {
     title: 'CustomYum',
     description: "This food recipe website is an online platform that provides a collection of diverse culinary recipes, offering users the opportunity to discover, learn, and prepare a wide range of dishes, catering to various tastes and dietary preferences. Even the recipes are systematically categorized.",
     image: '/images/i4.png',
     tags: ['React', 'Node', 'HTML', 'SCSS', 'JavaScript'],
     source: 'https://github.com/1-aditya-2/food-recipe',
     visit: 'https://food-recipe-peach.vercel.app/',
+    id: 2,
+  },
+  {
+    title: 'Chatter App',
+    description: "This is a simple real-time chat application built with Spring Boot and WebSocket technology. It allows multiple users to chat instantly through a live WebSocket connection. You can open this site on different browsers and interact among themselves. Currently can store session of 500 users at the same time.",
+    image: '/images/11.png',
+    tags: ['Spring Boot', 'WebSocket', 'React.js', 'SCSS'],
+    source: 'https://github.com/1-aditya-2/Spring-Boot-WebSocket-Chat-App',
+    visit: 'https://spring-boot-websocket-chat-app-production.up.railway.app/',
     id: 1,
   },
   {
@@ -24,24 +33,40 @@ export const projects = [
     tags: ['NextJs', 'Express', 'JavaScript', "CSS", "HTML"],
     source: 'https://github.com/shashank1503-cipher/Apoorv',
     visit: 'https://apoorviiitk.co/',
-    id: 2,
-  },
-  {
-    title: 'FlatMate',
-    description: "This robust and user-centric website functions as an extensive platform designed to facilitate room rentals and stands out with a distinctive feature that empowers users to discover compatible roommates for the purpose of sharing accommodation expenses to get affordable place.",
-      image: '/images/i3.png',
-      tags: ['PHP', 'JavaScript','CSS', "HTML"],
-    source: 'https://github.com/1-aditya-2/FlatMate',
-    visit: 'https://google.com',
-    id: 3,
+    id: 4,
   }
   
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: 'Joined Indian Institute of Information Technology, Kottayam (IIITK)', },
-  { year: 2020, text: 'Passed class XI (92%)', },
-  { year: 2018, text: 'Passed class X (95%)', },
-  // { year: 2021, text: 'Started my coding journey', },
-  // { year: 2022, text: 'Created this website', },
+  { year: '2025', text: 'Indian Institute of Information Technology, Kottayam (8.1 CGPA)', },
+  { year: '2020', text: 'Intermediate (92%)', },
+  { year: 2018, text: 'High School (95%)', },
+];
+
+export const experiences = [
+  {
+    role: 'Full Stack Developer Intern',
+    company: 'TestRigor',
+    image: '/images/testrigor.png', // or another relevant logo
+    description: [
+    '• Built an AI-powered test case editor using React.js and LLM APIs, reducing test authoring time by 30 sec/step.',
+    '• Automated PDF/CSV reporting of test case using Spring Boot, generating 1000+ reports/month for customer.',
+    '• Designed timezone-resilient scheduling of test case for devices across 20+ timezones using Java with unit tests.',
+    '• Hooked into the CI/CD pipelines to display 5+ real-time build metadata, improving deployment traceability.'
+    ],
+    techStack: ['Spring Boot', 'Node.js', 'React.js', 'Java', 'MongoDB', 'CI/CD', 'Appium', 'Selenium'],
+    link: 'https://testrigor.com',
+  },
+  {
+    role: 'Backend Developer',
+    company: 'Rablo.in',
+    image: '/images/rablo.png',
+    description: [
+      '• Revamped microservice architecture using React.js, improving load speed by 0.25 sec enhancing user experience.',
+      '• Implemented UI/UX enhancements of dashboard with React.js and Node.js, reducing user drop-off by 15%.'
+      ],
+    techStack: ['Recat.js', 'Express', 'MongoDB', 'Redux'],
+    link: 'https://rablo.in',
+  },
 ];

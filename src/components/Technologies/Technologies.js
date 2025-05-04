@@ -19,8 +19,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js, Next.js, HTML, CSS, TailwindCSS
+          <ul>React.js</ul>
+          <ul>Next.js</ul>
+          <ul>Material UI</ul>
+          <ul>TailwindCSS</ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,8 +33,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, Express.js, PHP, MongoDB, MySQL
+          <ul>Spring Boot</ul>
+          <ul>Node.js</ul>
+          <ul>Python</ul>
+          <ul>Meteor.js</ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +45,12 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Programming</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Java, C++, C, Python
+            <ul>Java </ul>
+            <ul>TypeScript</ul>
+            <ul>JavaScript</ul>
+            <ul>Python</ul>
           </ListParagraph>
         </ListContainer>
       </ListItem>
